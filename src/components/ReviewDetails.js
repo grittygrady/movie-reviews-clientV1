@@ -1,10 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import useFetch from '../hooks/useFetch';
-import config from '../config';
+
 
 const ReviewDetails = (props) => {
-  const { id } = useParams();
   // const { data: review, isLoading, error } = useFetch(`${config.API_ENDPOINT}/reviews/${id}`);
   const { reviews } = props;
   console.log(reviews)

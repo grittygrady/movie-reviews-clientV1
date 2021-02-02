@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import config from '../config';
+
 
 const AddReview = (props) => {
   const [title, setTitle] = useState('');
   const [rating, setRating] = useState(1);
   const [author, setAuthor] = useState('');
   const [body, setBody] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading] = useState(false);
 
   const history = useHistory();
 

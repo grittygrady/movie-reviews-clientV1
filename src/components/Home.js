@@ -1,8 +1,6 @@
 import React from 'react';
-import useFetch from '../hooks/useFetch';
 import ReviewList from './ReviewList';
-import config from '../config';
-import { useState } from 'react'
+
 
 const Home = (props) => {
   // const { data: reviews, isLoading, error } = useFetch(`${config.API_ENDPOINT}/reviews`)
